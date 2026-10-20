@@ -1,25 +1,44 @@
 <!doctype html>
 <html lang="is">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Persónuleg kynningarsíða og æfing í GitHub Flow.">
-  <title>Kynningarsíðan mín</title>
-</head>
-<body>
-  <header><p>Persónuleg kynning</p></header>
-  <main>
-    <h1>Vefþróun í litlum skrefum.</h1>
-    <p>Ég er nemandi í vefþróun og hér æfi ég mig í að búa til einfalda, aðgengilega vefi með HTML, CSS og JavaScript.</p>
-    <section aria-labelledby="about-heading">
-      <h2 id="about-heading">Um mig</h2>
-      <p>Ég er að læra hvernig hugmynd verður að vefsíðu, frá fyrstu HTML-skrá til útgáfu með GitHub Flow.</p>
-    </section>
-    <section aria-labelledby="learning-heading">
-      <h2 id="learning-heading">Það sem ég er að læra</h2>
-      <ul><li>HTML og merkingarbær uppbygging</li><li>CSS og sveigjanlegt útlit</li><li>JavaScript og gagnvirkni</li><li>Git, greinar og Pull Requests</li></ul>
-    </section>
-  </main>
-  <footer><p>© 2026 · Kynningarsíðan mín</p></footer>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Persónuleg kynningarsíða og æfing í GitHub Flow.">
+    <title>Kynningarsíðan mín</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#efni">Fara í efni</a>
+    <header class="site-header container">
+      <a class="brand" href="#">Mín síða<span aria-hidden="true">.</span></a>
+    </header>
+    <main id="efni" class="container">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">VEFÞ · Verkefni 1</p>
+        <h1 id="hero-title">Velkomin á<br> síðuna mína<span aria-hidden="true">.</span></h1>
+        <p class="intro">Ég er að læra vefþróun. Hér prófa ég mig áfram með HTML, CSS og JavaScript og æfi skipulögð vinnubrögð með Git og GitHub Flow.</p>
+        <a class="button" href="#um-mig">Nánar um síðuna <span aria-hidden="true">↗</span></a>
+        <div class="hero-decoration" aria-hidden="true">&lt;/&gt;</div>
+      </section>
+      <section id="um-mig" class="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">Skref fyrir skref</p>
+          <h2 id="about-title">Frá hugmynd<br> að vefsíðu.</h2>
+        </div>
+        <div class="about-copy">
+          <p>Þessi kynningarsíða er hluti af verkefni í vefþróun. Markmiðið er að byggja einfaldan vef í litlum, skýrum skrefum og halda utan um breytingar í Git.</p>
+          <p>Hver viðbót fær sína grein, afmörkuð commits og Pull Request áður en hún er sameinuð við aðalgreinina.</p>
+        </div>
+      </section>
+      <section class="skills" aria-label="Tæknin á bak við síðuna">
+        <article><span class="card-number" aria-hidden="true">01</span><h2>HTML</h2><p>Skýr uppbygging og merkingarbært efni.</p></article>
+        <article><span class="card-number" aria-hidden="true">02</span><h2>CSS</h2><p>Letur, litir og uppsetning sem aðlagast skjánum.</p></article>
+        <article><span class="card-number" aria-hidden="true">03</span><h2>JavaScript</h2><p>Gagnvirkur þemahnappur með vistuðu vali.</p></article>
+      </section>
+    </main>
+    <footer class="site-footer container">
+      <p>© 2026 · Kynningarsíðan mín.</p>
+      <a href="#">Aftur efst ↑</a>
+    </footer>
+  </body>
 </html>
