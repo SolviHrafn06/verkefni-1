@@ -1,0 +1,7 @@
+# Kynningarsíðan mín
+
+Persónuleg kynningarsíða fyrir Verkefni 1 í vefþróun. Verkefnið æfir HTML, CSS, JavaScript og GitHub Flow með Issues, afmörkuðum commits og Pull Requests.
+
+## Keyrsla
+
+Opnaðu `index.html` í vafra eða notaðu Live Server í Visual Studio Code. Engin pakkauppsetning er nauðsynleg.
