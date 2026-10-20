@@ -6,6 +6,9 @@ Persónuleg kynningarsíða fyrir Verkefni 1 í vefþróun. Verkefnið æfir HTM
 
 Opnaðu `index.html` í vafra eða notaðu Live Server í Visual Studio Code. Engin pakkauppsetning er nauðsynleg.
 
+## Myndir
+
+![Graph](images/GraphVsCode.png)
 
 ## ai disclosure
 
