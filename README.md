@@ -5,3 +5,8 @@ Persónuleg kynningarsíða fyrir Verkefni 1 í vefþróun. Verkefnið æfir HTM
 ## Keyrsla
 
 Opnaðu `index.html` í vafra eða notaðu Live Server í Visual Studio Code. Engin pakkauppsetning er nauðsynleg.
+
+
+## ai disclosure
+
+Ég notaði gevigreindina ChatGPT til þess að aðstoða við að hanna html og css kóðann hreinlega bara því ég nennti því ekki sjálfur.
